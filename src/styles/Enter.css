@@ -1,0 +1,34 @@
+header{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.yourOpinion{
+    display: flex;
+    gap: 10px;
+}
+.yourOpinion > input{
+    width: 440px;
+    height: 20px;
+    border-radius: 8px;
+}
+.yourOpinion > img{
+    border-radius: 45%;
+    width: 20px;
+    height: 15px;
+}
+.bottomMain{
+    display: flex;
+    gap: 100px;
+}
+.postP{
+    width: auto;
+    height: auto;
+    border: 2px solid grey;
+}
+.addBtn{
+    width: 250px;
+    height: 50px;
+    color: black;
+    background-color: blue;
+}

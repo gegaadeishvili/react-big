@@ -1,0 +1,45 @@
+.mainCont{
+    display: flex;
+    gap: 100px;
+}
+.leftSide{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 200px;
+    height: auto;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.leftSide > h1{
+    color: blue;
+}
+.inputSide{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(212, 207, 207);
+    margin-left: 700px;
+    width: 350px;
+    height: 350px;
+}
+.inputSide > input{
+    width: 250px;
+    height: 40px;
+}
+.enter{
+    background-color: blue;
+    color: white;
+    font-size: large;
+    width: 255px;
+    height: 40px;
+}
+.new{
+    background-color: rgb(76, 255, 76);
+    width: 200px;
+    height: 40px;
+    font-size: medium;
+}
